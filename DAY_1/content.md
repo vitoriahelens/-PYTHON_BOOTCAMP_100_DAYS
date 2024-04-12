@@ -1,6 +1,5 @@
 # DAY 1 - BEGGINER
 #### WORKING WITH VARIABLES IN PYTHON TO MANAGE DATA
----
 
 ```
 print("Hello World!")
