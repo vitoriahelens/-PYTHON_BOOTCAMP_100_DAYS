@@ -70,4 +70,7 @@ score /= 2 #divide por 2
 ## f-String
 print(f"your score ir {score}") #converte todo o valor
 ```
+---
 
+## FINAL PROJECT - TIP CALCULATOR
+<img src = DAY_2.png>
