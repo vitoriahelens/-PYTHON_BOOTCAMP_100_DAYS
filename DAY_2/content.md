@@ -39,3 +39,35 @@ print(3 * 2) #multiplicação
 print(6 / 3) #divisão
 print(2 ** 3) #potencia
 ```
+### BMI CALCULATOR
+```
+height = input("Insira sua altura: ")
+weight = input("Insira seu peso: ")
+
+height_as_float = float(height)
+weight_as_int = int(weight)
+
+bmi = weight_as_int / height_as_float ** 2
+bmi_as_int = int(bmi)
+print(bmi_as_int)
+```
+
+## NUMBER MANIPULATION AND F STRINGS IN PYTHON
+```
+print(round(8 / 3)) #arredonda para o inteiro mais proximo
+print(round(8 / 3, 2)) #arredonda para a casa decimal mais proxima com 2 numeros após o ponto
+print(round(8 // 3)) #recebe sempre um numero inteiro, nesse caso, 2
+
+result = 4 / 2
+result /= 2 #divide o resultado por dois
+
+score = 0
+score += 1 #adiciona 1
+score -= 1 #diminui 1
+score *= 2 #multiplica por 2
+score /= 2 #divide por 2
+
+## f-String
+print(f"your score ir {score}") #converte todo o valor
+```
+
