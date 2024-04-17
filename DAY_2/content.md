@@ -2,7 +2,8 @@
 #### UNDERSTANDING DATA TYPES AND HOW TO MANIPULATES STRINGS
 
 ## PRIMITIVE DATA TYPES
-```
+
+```python
 ### STRING
 print("Hello"[4])
 ### INTEGER
@@ -13,8 +14,10 @@ print(123 + 345)
 True
 False
 ```
+
 ## TYPE ERROR, TYPE CHECKING AND TYPE CONVERSION
-```
+
+```python
 num_char = len(input("What is your name?"))
 
 ### Verifica o tipo de uma variável
@@ -32,15 +35,18 @@ print(type(a))
 ```
 
 ## MATHEMATICAL OPERATIONS IN PYTHON
-```
+
+```python
 print(3 + 5) #soma
 print(7 - 4) #subtração
 print(3 * 2) #multiplicação
 print(6 / 3) #divisão
 print(2 ** 3) #potencia
 ```
+
 ### BMI CALCULATOR
-```
+
+```python
 height = input("Insira sua altura: ")
 weight = input("Insira seu peso: ")
 
@@ -53,7 +59,8 @@ print(bmi_as_int)
 ```
 
 ## NUMBER MANIPULATION AND F STRINGS IN PYTHON
-```
+
+```python
 print(round(8 / 3)) #arredonda para o inteiro mais proximo
 print(round(8 / 3, 2)) #arredonda para a casa decimal mais proxima com 2 numeros após o ponto
 print(round(8 // 3)) #recebe sempre um numero inteiro, nesse caso, 2
@@ -70,6 +77,7 @@ score /= 2 #divide por 2
 ## f-String
 print(f"your score ir {score}") #converte todo o valor
 ```
+
 ---
 
 ## FINAL PROJECT - TIP CALCULATOR
