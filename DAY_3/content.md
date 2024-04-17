@@ -129,6 +129,43 @@ if height >= 120:
 else:
     print ("Sorry, you have to grow taller before you can ride!")
 ```
+
+```python
+# Pizza Order
+print("Thank your for choosing Python Pizza Deliveries")
+size = input("What size pizza do yout want? S, M or L \n")
+add_pepperoni = input("Do you want pepperoni? Y or N \n")
+extra_cheese = input ("Do you want extra cheese? Y or N \n")
+
+bill = 0
+
+if size == "S":
+    bill += 15
+elif size == "M":
+    bill += 20
+else:
+    bill += 25
+
+if add_pepperoni == "Y":
+    if size == "S":
+        bill += 2
+    else:
+        bill += 3
+    
+if extra_cheese == "Y":
+    bill += 1
+
+print(f"Your final bill is: ${bill}")
+```
+
+## LOGICAL OPERATORS
+
+```python
+and | A and B, if one is false, everything is false 
+or  | C or D, if one is true, everything is true 
+not | not E, if E is true, than it's be false
+```
+
 ---
 
 ## FINAL PROJECT - TREASURE ISLAND
