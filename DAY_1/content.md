@@ -29,6 +29,7 @@ print("Hello" + " " + "Vitoria")
 ## INPUT FUNCTION
 
 ```python
+# Calculator
 print("Hello "+ input("What is your name?"))
 print ("Insert a number: ")
 num1 = int(input())
@@ -43,6 +44,7 @@ print( len( input("What is your name?") ) )
 ## VARIABLES
 
 ```python
+# Lengt Name
 name = input("What is your name? ")
 lenght = len(name)
 print(lenght)
