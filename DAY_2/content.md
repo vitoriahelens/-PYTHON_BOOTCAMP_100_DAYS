@@ -18,6 +18,7 @@ False
 ## TYPE ERROR, TYPE CHECKING AND TYPE CONVERSION
 
 ```python
+# Counting name characters
 num_char = len(input("What is your name?"))
 
 ### Verifica o tipo de uma variável
@@ -44,9 +45,8 @@ print(6 / 3) #divisão
 print(2 ** 3) #potencia
 ```
 
-### BMI CALCULATOR
-
 ```python
+# BMI CALCULATOR
 height = input("Insira sua altura: ")
 weight = input("Insira seu peso: ")
 
