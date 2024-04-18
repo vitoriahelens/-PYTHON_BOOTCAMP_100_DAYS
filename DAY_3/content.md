@@ -100,37 +100,6 @@ if condition3:
 ```
 
 ```python
-# Rollercoaster Tickets
-print("Welcome to the rollercoaster!")
-height = int(input("What is yout height in cm? "))
-
-bill = 0
-
-if height >= 120:
-    print("You can ride the rollecoaster!")
-    age = int(input("What's your age? "))
-    if age < 12:
-        bill = 5
-        print ("Child tickets are $5.")
-    elif age <= 18:
-        bill = 7
-        print("Youth tickets are $7.")
-    else:
-        bill = 7
-        print("Adult tickets are $12.")
-    
-    wants_photo = input("Do you want a photo taken? Y or N. ")
-
-    if wants_photo == "Y":
-        bill += 3
-    
-    print(f"Your final bill is ${bill}.")
-
-else:
-    print ("Sorry, you have to grow taller before you can ride!")
-```
-
-```python
 # Pizza Order
 print("Thank your for choosing Python Pizza Deliveries")
 size = input("What size pizza do yout want? S, M or L \n")
@@ -166,6 +135,38 @@ or  | C or D, if one is true, everything is true
 not | not E, if E is true, than it's be false
 ```
 
+```python
+# Rollercoaster Tickets
+print("Welcome to the rollercoaster!")
+height = int(input("What is yout height in cm? "))
+
+bill = 0
+
+if height >= 120:
+    print("You can ride the rollecoaster!")
+    age = int(input("What's your age? "))
+    if age < 12:
+        bill = 5
+        print ("Child tickets are $5.")
+    elif age <= 18:
+        bill = 7
+        print("Youth tickets are $7.")
+    elif age >= 45 and age <= 85:
+        print("Everything is gona be okay. Have a free ride on us!")
+    else:
+        bill = 7
+        print("Adult tickets are $12.")
+    
+    wants_photo = input("Do you want a photo taken? Y or N. ")
+
+    if wants_photo == "Y":
+        bill += 3
+    
+    print(f"Your final bill is ${bill}.")
+
+else:
+    print ("Sorry, you have to grow taller before you can ride!")
+```
 ---
 
 ## FINAL PROJECT - TREASURE ISLAND
